@@ -1,0 +1,6 @@
+services:
+  flutter316:
+    image: mobiledevops/flutter-sdk-image:3.16.4
+    volumes:
+      - ./:/app
+    command: sleep 10000
